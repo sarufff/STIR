@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title> STIR </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="pantry.html"> PANTRY</a></li>
+                    <li><a href=""> RECIPIES</a></li>
+                    <li><a href="account.html"> ACCOUNT</a></li>
+                    <li><a href="about.html"> ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>WANT TO TRY SOMETHING NEW? </h1>
+    <p> ADD THE ITEMS IN YOUR PANTRY AND OUR GENERATOR WILL FIND YOU MEALS TO MAKE BASED ON THE INGREDIENTS YOU HAVE
+        RANGING FROM BREAKFAST LUNCH DINNER AND DESERT!
+
+    </p>
+    <a href="" class="hero-btn">START ADDING TO YOUR PANTRY TO BEGAN</a>
+</div>
+</section>
+
+
+<!-----footer------>
+
+
+<section class="footer">
+    <h4> About Us</h4>
+    <p> ABOUT US </p>
+    <div class="icons">
+        <i class="icon"><ion-icon name="logo-facebook"></ion-icon></i>
+        <i class="icon"><ion-icon name="logo-twitter"></ion-icon></i>
+        <i class="icon"><ion-icon name="logo-instagram"></ion-icon></i>
+    </div>
+    <p>Made with <i class="icon"><ion-icon name="heart-outline"></ion-icon></i> by Sara Abdullah</p>
+</section>
+
+
+
+
+<!-------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
+
+
+
+
